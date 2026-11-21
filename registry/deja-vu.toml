@@ -1,0 +1,5 @@
+aliases = ["deja"]
+backends = ["aqua:vshulcz/deja-vu"]
+description = "Shared local memory, session search, and cross-agent handoff CLI across coding agents"
+test = { cmd = "deja --version", expected = "deja {{version}}" }
+version_order = "semver"
